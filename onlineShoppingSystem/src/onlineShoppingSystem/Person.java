@@ -25,7 +25,7 @@ public class Person {
 		this.surname = surname;
 	}
 
-	public static void bilgiGetir(Person person) {
+	public static void bringInfo(Person person) {
 		System.out.println("Customer Name : " + person.getName() + "\n" + "Customer Surname : " + person.getSurname());
 	}
 
