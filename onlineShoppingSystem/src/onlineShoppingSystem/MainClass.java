@@ -6,7 +6,7 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		Customer customer = new Customer("ozan", "yildiz");
-		Customer.bilgiGetir(customer);
+		Customer.bringInfo(customer);
 		
 		WareHouse house = new WareHouse();
 		house.addProduct("apple", (float) 1.80, 10);
